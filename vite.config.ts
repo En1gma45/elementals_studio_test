@@ -6,6 +6,7 @@ export default defineConfig((configEnv) => {
   const isDevelopment = configEnv.mode === "development";
 
   return {
+    base: "/<REPO>/",
     plugins: [react()],
     resolve: {
       alias: {
@@ -14,7 +15,7 @@ export default defineConfig((configEnv) => {
         hooks: resolve(__dirname, "src", "hooks"),
         utils: resolve(__dirname, "src", "utils"),
         types: resolve(__dirname, "src", "types"),
-        assets: resolve(__dirname, "src", "assets")
+        assets: resolve(__dirname, "src", "assets"),
       },
     },
     css: {
