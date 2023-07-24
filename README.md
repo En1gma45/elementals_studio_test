@@ -1,4 +1,4 @@
-# Elementals Studio Fronend Task
+# Elementals Studio Frontend Task
 
 ## Features
 
