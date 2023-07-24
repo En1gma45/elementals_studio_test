@@ -6,7 +6,7 @@ export default defineConfig((configEnv) => {
   const isDevelopment = configEnv.mode === "development";
 
   return {
-    base: "/elementals_studio_test",
+    base: "/",
     plugins: [react()],
     resolve: {
       alias: {
