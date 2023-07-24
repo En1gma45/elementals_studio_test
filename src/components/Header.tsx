@@ -24,7 +24,7 @@ export const Header = () => (
   <header className="sticky top-0 w-full">
     <nav className="bg-gray-600 shadow-lg">
       <ul className="flex items-center">
-        <NavItem to="/">Scoreboard</NavItem>
+        <NavItem to={import.meta.env.VITE_BASE_URL + "/"}>Scoreboard</NavItem>
       </ul>
     </nav>
   </header>
