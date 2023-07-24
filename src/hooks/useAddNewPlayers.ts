@@ -7,14 +7,14 @@ export const useAddNewPlayer = (page: number) => {
   const [players, setPlayers] = useState<User[]>([]);
 
   useEffect(() => {
-    setLoading(true)
-    setTimeout(()=> {
-        const newPlayers = generateRandomUsers(50);
-        setPlayers(prev => {
-            return [...prev, ...newPlayers]
-          });
-          setLoading(false);
-    }, 1000)
+    setLoading(true);
+    setTimeout(() => {
+      const newPlayers = generateRandomUsers(50);
+      setPlayers((prev) => {
+        return [...prev, ...newPlayers];
+      });
+      setLoading(false);
+    }, 1000);
   }, [page]);
 
   return { isLoading, players };

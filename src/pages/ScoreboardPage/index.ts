@@ -1,1 +1,1 @@
-export * from './ScoreboardPage';
+export * from "./ScoreboardPage";

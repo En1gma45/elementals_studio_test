@@ -18,7 +18,7 @@ const PlayerCard: FunctionComponent<PlayerCardProps> = ({
     <div className="w-full h-full flex flex-row justify-between items-center border-2 rounded border-black my-4 px-4">
       <p className=" w-2 text-xs mid:text-base">{position}</p>
       <div className="h-full scale-[65%] flex items-center">
-        <HelmetIcon color={color}/>
+        <HelmetIcon color={color} />
       </div>
       <div className=" flex flex-col items-center w-1/2" id="info">
         <p className="">{name}</p>

@@ -47,8 +47,8 @@ describe("useAddNewPlayer", () => {
     // Change the page and wait for the useEffect to update the players array
     rerender(2);
     await act(async () => {
-        jest.advanceTimersByTime(1000); // Wait for the initial useEffect to complete
-      });
+      jest.advanceTimersByTime(1000); // Wait for the initial useEffect to complete
+    });
     await waitFor(() => {
       // Assuming generateRandomUsers(50) returns a different array of 50 users for page 2
       expect(result.current.players).toHaveLength(100);

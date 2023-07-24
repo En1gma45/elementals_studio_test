@@ -1,5 +1,5 @@
-import clsx from 'clsx';
-import { ReactNode } from 'react';
+import clsx from "clsx";
+import { ReactNode } from "react";
 
 export const CenteredLayout = ({
   className,
@@ -10,8 +10,8 @@ export const CenteredLayout = ({
 }) => (
   <div
     className={clsx(
-      'flex items-center justify-center h-[calc(100vh-48px)] text-slate-700',
-      className,
+      "flex items-center justify-center h-[calc(100vh-48px)] text-slate-700",
+      className
     )}
   >
     {children}

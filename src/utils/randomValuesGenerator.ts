@@ -7,8 +7,30 @@ function generateRandomColor(): Color {
 }
 
 function generateRandomName(): string {
-  const names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah", "Isaac", "Jane"];
-  const surnames = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Addeman"];
+  const names = [
+    "Alice",
+    "Bob",
+    "Charlie",
+    "David",
+    "Eve",
+    "Frank",
+    "Grace",
+    "Hannah",
+    "Isaac",
+    "Jane",
+  ];
+  const surnames = [
+    "Smith",
+    "Johnson",
+    "Williams",
+    "Brown",
+    "Jones",
+    "Garcia",
+    "Miller",
+    "Davis",
+    "Rodriguez",
+    "Addeman",
+  ];
   const randomIndex = Math.floor(Math.random() * names.length);
   return `${names[randomIndex]} ${surnames[randomIndex]}`;
 }
