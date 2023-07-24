@@ -2,7 +2,7 @@
   "name": "vital",
   "version": "1.0.0",
   "description": "Starter template for Vite with React (TypeScript). Supports Tailwind with CSS-Modules. Jest and @react/testing-library configured and ready to go. Also ESLint, Prettier, Husky, Commit-lint and Atomic Design for components.",
-  "homepage": "https://en1gma45.github.io/",
+  "homepage": "https://en1gma45.github.io/elementals_studio_test",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jvidalv/vital.git"
@@ -47,6 +47,7 @@
     "@heroicons/react": "2.0.13",
     "@tanstack/react-location": "^3.7.4",
     "clsx": "^2.0.0",
+    "dotenv": "^16.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

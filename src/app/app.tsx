@@ -6,7 +6,7 @@ const reactLocation = new ReactLocation();
 
 const routes: Route[] = [
   {
-    path: "/",
+    path: import.meta.env.VITE_BASE_URL + "/",
     element: <ScoreboardPage />,
   },
 ];
